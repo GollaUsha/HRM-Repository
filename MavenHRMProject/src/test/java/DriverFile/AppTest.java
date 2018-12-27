@@ -9,6 +9,7 @@ public class AppTest {
 		DriverScript ds = new DriverScript();
 		try {
 			ds.startTest();
+			System.out.println("added");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
